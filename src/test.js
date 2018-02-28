@@ -1,4 +1,5 @@
-module.exports = function getZerosCount(number) {
+function getZerosCount(number) {
+	var number = 95670627;
 	var n = 5;
 	var result = 0;
 	while(number > n){
@@ -6,6 +7,7 @@ module.exports = function getZerosCount(number) {
 		n = n * 5;
 	}
 
-	return result;
-	
+	console.log(result);
 }
+
+getZerosCount();
